@@ -16,7 +16,7 @@ class LoginHistoryController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Load login history from database
+        // Load Login History from database
         let request = NSFetchRequest<LoginHistory>(entityName: "LoginHistory")
         histories = try! AppDelegate.context.fetch(request)
     }

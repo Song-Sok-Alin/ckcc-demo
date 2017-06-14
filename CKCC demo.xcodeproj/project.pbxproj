@@ -13,6 +13,7 @@
 		3F48BF2B1ED3153E002E9C9B /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48BF291ED3153E002E9C9B /* Article+CoreDataClass.swift */; };
 		3F48BF2C1ED3153E002E9C9B /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48BF2A1ED3153E002E9C9B /* Article+CoreDataProperties.swift */; };
 		3F5F620F1E8545C30015F7A7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F620E1E8545C30015F7A7 /* ProfileViewController.swift */; };
+		3F8004991EEEB80D008FFDED /* ServerArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8004981EEEB80D008FFDED /* ServerArticle.swift */; };
 		3FBCB9B71E8BD22A0010C6EB /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCB9B61E8BD22A0010C6EB /* ArticleTableViewController.swift */; };
 		3FBFC2E91EB0B74000A825F5 /* FeedbackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC2E81EB0B74000A825F5 /* FeedbackTableViewController.swift */; };
 		3FBFC2ED1EB0BCAD00A825F5 /* feedbackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFC2EC1EB0BCAD00A825F5 /* feedbackTableViewCell.swift */; };
@@ -21,6 +22,7 @@
 		3FC7D9801E76B3A1009CFF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7D97F1E76B3A1009CFF7F /* Assets.xcassets */; };
 		3FC7D9831E76B3A1009CFF7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7D9811E76B3A1009CFF7F /* LaunchScreen.storyboard */; };
 		3FC7D98C1E76CACC009CFF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7D98A1E76CACC009CFF7F /* Main.storyboard */; };
+		3FF2A0061EE82B3400E752DE /* CKCC demo DataModel1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2A0051EE82B3400E752DE /* CKCC demo DataModel1.sqlite */; };
 		3FF76A9E1ED59E3F0092CB3A /* LoginHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF76A9C1ED59E3F0092CB3A /* LoginHistory+CoreDataClass.swift */; };
 		3FF76A9F1ED59E3F0092CB3A /* LoginHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF76A9D1ED59E3F0092CB3A /* LoginHistory+CoreDataProperties.swift */; };
 		3FF76AA11ED5A09E0092CB3A /* LoginHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF76AA01ED5A09E0092CB3A /* LoginHistoryController.swift */; };
@@ -35,6 +37,7 @@
 		3F48BF291ED3153E002E9C9B /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3F48BF2A1ED3153E002E9C9B /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3F5F620E1E8545C30015F7A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3F8004981EEEB80D008FFDED /* ServerArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerArticle.swift; path = "CKCC demo/ServerArticle.swift"; sourceTree = "<group>"; };
 		3FBCB9B61E8BD22A0010C6EB /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
 		3FBFC2E81EB0B74000A825F5 /* FeedbackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackTableViewController.swift; sourceTree = "<group>"; };
 		3FBFC2EC1EB0BCAD00A825F5 /* feedbackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedbackTableViewCell.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		3FC7D9821E76B3A1009CFF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC7D9841E76B3A1009CFF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC7D98B1E76CACC009CFF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF2A0051EE82B3400E752DE /* CKCC demo DataModel1.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CKCC demo DataModel1.sqlite"; sourceTree = "<group>"; };
 		3FF76A9C1ED59E3F0092CB3A /* LoginHistory+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginHistory+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3FF76A9D1ED59E3F0092CB3A /* LoginHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginHistory+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3FF76AA01ED5A09E0092CB3A /* LoginHistoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginHistoryController.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				3FF76AA21ED5A4C60092CB3A /* User+CoreDataClass.swift */,
+				3F8004981EEEB80D008FFDED /* ServerArticle.swift */,
 				3FF76AA31ED5A4C60092CB3A /* User+CoreDataProperties.swift */,
 				3FF76A9C1ED59E3F0092CB3A /* LoginHistory+CoreDataClass.swift */,
 				3FF76A9D1ED59E3F0092CB3A /* LoginHistory+CoreDataProperties.swift */,
@@ -102,6 +107,7 @@
 				3FC7D9811E76B3A1009CFF7F /* LaunchScreen.storyboard */,
 				3FC7D9841E76B3A1009CFF7F /* Info.plist */,
 				3F48BF221ED3094F002E9C9B /* CKCC demo DataModel.xcdatamodeld */,
+				3FF2A0051EE82B3400E752DE /* CKCC demo DataModel1.sqlite */,
 			);
 			path = "CKCC demo";
 			sourceTree = "<group>";
@@ -165,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF2A0061EE82B3400E752DE /* CKCC demo DataModel1.sqlite in Resources */,
 				3FC7D98C1E76CACC009CFF7F /* Main.storyboard in Resources */,
 				3FC7D9831E76B3A1009CFF7F /* LaunchScreen.storyboard in Resources */,
 				3FC7D9801E76B3A1009CFF7F /* Assets.xcassets in Resources */,
@@ -184,6 +191,7 @@
 				3FBFC2ED1EB0BCAD00A825F5 /* feedbackTableViewCell.swift in Sources */,
 				3F48BF2B1ED3153E002E9C9B /* Article+CoreDataClass.swift in Sources */,
 				3FBCB9B71E8BD22A0010C6EB /* ArticleTableViewController.swift in Sources */,
+				3F8004991EEEB80D008FFDED /* ServerArticle.swift in Sources */,
 				3FF76A9E1ED59E3F0092CB3A /* LoginHistory+CoreDataClass.swift in Sources */,
 				3F5F620F1E8545C30015F7A7 /* ProfileViewController.swift in Sources */,
 				3F48BF2C1ED3153E002E9C9B /* Article+CoreDataProperties.swift in Sources */,

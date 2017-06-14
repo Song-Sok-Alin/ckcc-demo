@@ -44,11 +44,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     // MARK: - Core Data stack
-    
     static var context: NSManagedObjectContext {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         return appDelegate.persistentContainer.viewContext
     }
+    
     
     lazy var persistentContainer: NSPersistentContainer = {
         /*
@@ -58,6 +58,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          error conditions that could cause the creation of the store to fail.
          */
         let container = NSPersistentContainer(name: "CKCC demo DataModel")
+        
+        // Start modifying container to use pre-load data
+                var persistentStoreDescriptions: NSPersistentStoreDescription
+                let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+                let applicationDocumentsDirectory = urls[urls.count-1]
+                let storeUrl = applicationDocumentsDirectory.appendingPathComponent("CKCC demo DataModel1.sqlite")
+        
+                if !FileManager.default.fileExists(atPath: (storeUrl.path)) {
+                        let preloadDataUrl = Bundle.main.url(forResource: "CKCC demo DataModel1", withExtension: "sqlite")!
+                        try! FileManager.default.copyItem(at: preloadDataUrl, to: storeUrl)
+                    }
+        
+                let description = NSPersistentStoreDescription()
+                    description.shouldInferMappingModelAutomatically = true
+                    description.shouldMigrateStoreAutomatically = true
+                   description.url = storeUrl
+        
+                   container.persistentStoreDescriptions = [description]
+                   // End modifying container
+            
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

@@ -23,6 +23,9 @@ class LoginViewController: UIViewController {
             //performSegue(withIdentifier: "segue1", sender: nil)
         }
         
+        let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        print(urls[urls.count-1] as URL )
+        
         // Temporary insert users
        /*
         let user1 = NSEntityDescription.insertNewObject(forEntityName: "User", into: AppDelegate.context) as! User
